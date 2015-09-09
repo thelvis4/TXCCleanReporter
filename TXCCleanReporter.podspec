@@ -8,5 +8,6 @@ Pod::Spec.new do |s|
   s.source_files  = 'CleanTestsObserver', 'CleanTestsObserver/*.{h,m}'
   s.public_header_files = 'CleanTestsObserver', 'CleanTestsObserver/*.{h}'
   s.requires_arc = true
+  s.framework    = 'XCTest'
 
 end 
