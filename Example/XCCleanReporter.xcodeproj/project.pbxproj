@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3F358E71BA0921900ECD658 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F358E61BA0921900ECD658 /* main.swift */; };
+		A3F358FA1BA0925300ECD658 /* TXCCleanReporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F358F91BA0925300ECD658 /* TXCCleanReporterTests.swift */; settings = {ASSET_TAGS = (); }; };
+		A3F359001BA0928800ECD658 /* CleanTestObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F358FD1BA0928800ECD658 /* CleanTestObserver.m */; settings = {ASSET_TAGS = (); }; };
+		A3F359011BA0928800ECD658 /* XCTestObservationCenter+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F358FF1BA0928800ECD658 /* XCTestObservationCenter+Swizzling.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3F358E11BA0921900ECD658 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3F358E31BA0921900ECD658 /* XCCleanReporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XCCleanReporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F358E61BA0921900ECD658 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A3F358F11BA0922300ECD658 /* XCCleanReporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCCleanReporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F358F51BA0922300ECD658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F358F91BA0925300ECD658 /* TXCCleanReporterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TXCCleanReporterTests.swift; sourceTree = "<group>"; };
+		A3F358FC1BA0928800ECD658 /* CleanTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CleanTestObserver.h; sourceTree = "<group>"; };
+		A3F358FD1BA0928800ECD658 /* CleanTestObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleanTestObserver.m; sourceTree = "<group>"; };
+		A3F358FE1BA0928800ECD658 /* XCTestObservationCenter+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestObservationCenter+Swizzling.h"; sourceTree = "<group>"; };
+		A3F358FF1BA0928800ECD658 /* XCTestObservationCenter+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestObservationCenter+Swizzling.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F358E01BA0921900ECD658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F358EE1BA0922300ECD658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3F358DA1BA0921900ECD658 = {
+			isa = PBXGroup;
+			children = (
+				A3F358E51BA0921900ECD658 /* XCCleanReporter */,
+				A3F358F21BA0922300ECD658 /* XCCleanReporterTests */,
+				A3F358E41BA0921900ECD658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F358E41BA0921900ECD658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F358E31BA0921900ECD658 /* XCCleanReporter */,
+				A3F358F11BA0922300ECD658 /* XCCleanReporterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F358E51BA0921900ECD658 /* XCCleanReporter */ = {
+			isa = PBXGroup;
+			children = (
+				A3F358E61BA0921900ECD658 /* main.swift */,
+			);
+			path = XCCleanReporter;
+			sourceTree = "<group>";
+		};
+		A3F358F21BA0922300ECD658 /* XCCleanReporterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F358FB1BA0928800ECD658 /* CleanTestsObserver */,
+				A3F358F91BA0925300ECD658 /* TXCCleanReporterTests.swift */,
+				A3F358F51BA0922300ECD658 /* Info.plist */,
+			);
+			path = XCCleanReporterTests;
+			sourceTree = "<group>";
+		};
+		A3F358FB1BA0928800ECD658 /* CleanTestsObserver */ = {
+			isa = PBXGroup;
+			children = (
+				A3F358FC1BA0928800ECD658 /* CleanTestObserver.h */,
+				A3F358FD1BA0928800ECD658 /* CleanTestObserver.m */,
+				A3F358FE1BA0928800ECD658 /* XCTestObservationCenter+Swizzling.h */,
+				A3F358FF1BA0928800ECD658 /* XCTestObservationCenter+Swizzling.m */,
+			);
+			name = CleanTestsObserver;
+			path = ../../CleanTestsObserver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F358E21BA0921900ECD658 /* XCCleanReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F358EA1BA0921900ECD658 /* Build configuration list for PBXNativeTarget "XCCleanReporter" */;
+			buildPhases = (
+				A3F358DF1BA0921900ECD658 /* Sources */,
+				A3F358E01BA0921900ECD658 /* Frameworks */,
+				A3F358E11BA0921900ECD658 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCCleanReporter;
+			productName = XCCleanReporter;
+			productReference = A3F358E31BA0921900ECD658 /* XCCleanReporter */;
+			productType = "com.apple.product-type.tool";
+		};
+		A3F358F01BA0922300ECD658 /* XCCleanReporterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F358F61BA0922300ECD658 /* Build configuration list for PBXNativeTarget "XCCleanReporterTests" */;
+			buildPhases = (
+				A3F358ED1BA0922300ECD658 /* Sources */,
+				A3F358EE1BA0922300ECD658 /* Frameworks */,
+				A3F358EF1BA0922300ECD658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCCleanReporterTests;
+			productName = XCCleanReporterTests;
+			productReference = A3F358F11BA0922300ECD658 /* XCCleanReporterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F358DB1BA0921900ECD658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = thelvis;
+				TargetAttributes = {
+					A3F358E21BA0921900ECD658 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A3F358F01BA0922300ECD658 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A3F358DE1BA0921900ECD658 /* Build configuration list for PBXProject "XCCleanReporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3F358DA1BA0921900ECD658;
+			productRefGroup = A3F358E41BA0921900ECD658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F358E21BA0921900ECD658 /* XCCleanReporter */,
+				A3F358F01BA0922300ECD658 /* XCCleanReporterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F358EF1BA0922300ECD658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F358DF1BA0921900ECD658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F358E71BA0921900ECD658 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F358ED1BA0922300ECD658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F358FA1BA0925300ECD658 /* TXCCleanReporterTests.swift in Sources */,
+				A3F359011BA0928800ECD658 /* XCTestObservationCenter+Swizzling.m in Sources */,
+				A3F359001BA0928800ECD658 /* CleanTestObserver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3F358E81BA0921900ECD658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3F358E91BA0921900ECD658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A3F358EB1BA0921900ECD658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3F358EC1BA0921900ECD658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3F358F71BA0922300ECD658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XCCleanReporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thelvis.XCCleanReporterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3F358F81BA0922300ECD658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XCCleanReporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thelvis.XCCleanReporterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F358DE1BA0921900ECD658 /* Build configuration list for PBXProject "XCCleanReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F358E81BA0921900ECD658 /* Debug */,
+				A3F358E91BA0921900ECD658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F358EA1BA0921900ECD658 /* Build configuration list for PBXNativeTarget "XCCleanReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F358EB1BA0921900ECD658 /* Debug */,
+				A3F358EC1BA0921900ECD658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F358F61BA0922300ECD658 /* Build configuration list for PBXNativeTarget "XCCleanReporterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F358F71BA0922300ECD658 /* Debug */,
+				A3F358F81BA0922300ECD658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3F358DB1BA0921900ECD658 /* Project object */;
+}
