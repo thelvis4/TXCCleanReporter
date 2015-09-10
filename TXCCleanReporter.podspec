@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|  
   s.name         = "TXCCleanReporter"
   s.version      = "0.0.1"
-  s.summary      = "Bettet way to display tests response"
+  s.summary      = "Better way to display tests response"
   s.homepage     = "http://EXAMPLE/TXCCleanReporter"
   s.author       = { "Andrei Raifura" => "thelvis4@gmail.com" }
   s.platform     = :ios, '7.0'
