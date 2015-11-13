@@ -1,12 +1,12 @@
 # TXCCleanReporter
-A XCTests reporter that prints a clean summary of the tests
+A XCTests reporter to prettify the tests' log.
 
 ## Instalation
-All that you have to do is to Drag&Drop the folder CleanTestsObserver into your tests target.
+All that you have to do is to Drag&Drop the folder CleanTestsObserver into your Tests target.
 Make sure to set the files as members of Tests target.
 
 ## Usage
-Just run the tests as usually. The only thing that will differ is the output on console. :)
+Just run the tests as you usually do. The only thing that's going to be different is the output in console. :smile:
 
 #### Default XCTests reporter
 ```` console
